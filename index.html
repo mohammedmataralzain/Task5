@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Timer</title>
+</head>
+
+<body>
+    <section>
+        <div>
+            <button id="stopwatch">STOPWATCH</button>
+            <button id="timer">TIMER</button>
+        </div>
+        <div class="output">
+            <p class="output-stopwatch"><span id="minutes">00</span><span id="s">m</span> <span
+                    id="seconds">00</span><span id="s">s</span><span> </span><span id="tens">00</span></p>
+            <p class="output-timer">
+               <input maxlength="2" placeholder="00" id="secondsTimers"> <span id="s">s</span>
+               <input maxlength="2" placeholder="00" id="minutesTimer"> <span id="s">m</span>
+               <input maxlength="2" placeholder="00" id="hoursTimer"> <span id="s">h</span>
+            </p>
+        </div>
+        <div class="btn">
+            <button id="btn-start">Start</button>
+            <button id="btn-stop">Stop</button>
+            <button id="btn-reset" type="reset">Reset</button>
+        </div>
+        <div class="btnTimer">
+            <button id="btn-startTimer">Start</button>
+            <button id="btn-stopTimer">Stop</button>
+            <button id="btn-resetTimer" type="reset">Reset</button>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
+
