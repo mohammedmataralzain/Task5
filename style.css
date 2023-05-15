@@ -10,11 +10,12 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 0 10px;
 }
 
 section {
     max-width: 800px;
-    height: 300px;
+    margin: 50px 100px;
     border: 4px solid #80868bd2;
     border-radius: 10px;
     background-color: #202124;
@@ -22,7 +23,6 @@ section {
 
 section div {
     display: flex;
-    /* flex-wrap: ; */
 }
 
 #stopwatch,
@@ -43,6 +43,9 @@ section div {
     border-top-right-radius: 10px;
     border-bottom: 4px solid #8ab4f8;
 }
+
+
+
 .output {
     background-color: #202124;
     width: 100%;
@@ -50,14 +53,15 @@ section div {
     font-size: 5em;
     display: flex;
     justify-content: end;
-    align-items: center; 
+    align-items: center;
     color: aliceblue;
 }
 
 #s {
     font-size: 0.5em;
 }
-.output-stopwatch{
+
+.output-stopwatch {
     display: none;
 }
 
@@ -67,6 +71,7 @@ section div {
     padding: 10px;
 
 }
+
 .btnTimer {
     display: flex;
     justify-content: end;
@@ -75,11 +80,14 @@ section div {
 
 
 }
-.btn button ,.btnTimer button {
+
+.btn button, .btnTimer button {
     padding: 7px;
     margin-left: 10px;
     background-color: #8ab4f8;
 }
+
+
 
 input {
     all: unset;
@@ -91,9 +99,8 @@ input {
     font-size: 70px;
 }
 
-@media (max-width : 490px) {
-    
-section div {
-    flex-wrap: wrap;
-}
+@media (max-width : 991px) {
+    section {
+        width: 100%;
+    }
 }

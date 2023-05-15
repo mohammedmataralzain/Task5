@@ -21,7 +21,7 @@ let minutes = 00;
 let Interval2;
 //-----------------------------------------------------
 
-//-- Timer -- 
+//-- Timer --
 
 let startTimer = document.getElementById("btn-startTimer")
 let stopTimer = document.getElementById("btn-stopTimer")
@@ -30,28 +30,26 @@ let secondsTimers = document.getElementById("secondsTimers")
 let minutesTimer = document.getElementById("minutesTimer")
 let hoursTimer = document.getElementById("hoursTimer")
 
-
 //-------------------------------------------------------------
 // -- stopwatch --
 
 stopwatch.addEventListener("click", () => {
     timer.style.borderBottomColor = "#80868b";
     stopwatch.style.borderBottomColor = "#8ab4f8";
-    outputTimer.style.display= "none";    
-    outputStopwatch.style.display= "block";    
-    btn.style.display= "flex";    
-    btn.style.justifyContent= "end";  
-    btnTimer.style.display= "none";    
-
+    outputTimer.style.display= "none";
+    outputStopwatch.style.display= "block";
+    btn.style.display= "flex";
+    btn.style.justifyContent= "end";
+    btnTimer.style.display= "none";
 })
 timer.addEventListener("click", () => {
     stopwatch.style.borderBottomColor = "#80868b";
     timer.style.borderBottomColor = "#8ab4f8";
-    outputStopwatch.style.display= "none";    
-    btn.style.display= "none";    
+    outputStopwatch.style.display= "none";
+    btn.style.display= "none";
     outputTimer.style.display= "block";
-    btnTimer.style.display = "flex"; 
-    btnTimer.style.justifyContent= "end";    
+    btnTimer.style.display = "flex";
+    btnTimer.style.justifyContent= "end";
 })
 
 btnStart.addEventListener("click",()=> {
@@ -71,7 +69,6 @@ btnReset.addEventListener("click",()=> {
      outputTens.innerHTML = tens;
      outputMinutes.innerHTML = minutes;
 })
-
 
 function startTime () {
     tens++;
@@ -102,7 +99,7 @@ function startTime () {
     }
 }
 // -------------------------------------------------------------
-// -- Timer 
+// -- Timer
 
 let starTimer = null;
 
