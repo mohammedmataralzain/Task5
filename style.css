@@ -37,11 +37,13 @@ section div {
 #stopwatch {
     border-top-left-radius: 10px;
     border-bottom: 4px solid #80868b;
+
 }
 
 #timer {
     border-top-right-radius: 10px;
     border-bottom: 4px solid #8ab4f8;
+
 }
 
 
@@ -49,16 +51,18 @@ section div {
 .output {
     background-color: #202124;
     width: 100%;
-    height: 200px;
+    height: 250px;
     font-size: 5em;
     display: flex;
     justify-content: end;
     align-items: center;
     color: aliceblue;
+
 }
 
 #s {
     font-size: 0.5em;
+    
 }
 
 .output-stopwatch {
@@ -77,6 +81,7 @@ section div {
     justify-content: end;
     border-top: 2px solid #80868b;
     padding: 10px;
+    
 
 
 }
@@ -97,6 +102,7 @@ input {
     border: none;
     background-color: none;
     font-size: 70px;
+    
 }
 
 @media (max-width : 991px) {
